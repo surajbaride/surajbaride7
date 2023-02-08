@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="icon" type="" href="">
+
+    <title>portfolid</title>
+
+    <style type="text/css">
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    font-family: sans-serif;
+
+}
+nav{
+    width: 100%;
+    height: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.logo{
+    font-size: 2rem;
+
+}
+.logo span{
+    color: white;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    position: relative;
+}
+.infos a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 8px;
+}
+.infos a:hover{
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    transition: 0.4s;
+}
+.h-style{
+    padding-top: 17rem;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.h-style h1{
+    font-size: 3rem;
+}
+.h-style a{
+text-decoration: none;
+background: black;
+color: white;
+padding: 10px 20px;
+border-radius: 8px;
+letter-spacing: 5px;
+}
+.menu a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-top: 2px solid black;
+    transition: 0.4s linear;
+}
+.menu a:hover:before{
+width: 100%;
+}
+.h-style a:before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: -1;
+    border: solid 1px;
+}
+.img{
+    padding-top: 15rem;
+    padding-left: 9rem;
+    padding-bottom: 5rem;
+}
+
+
+    </style>
+  </head>
+</body>
+    <header>
+        <nav>
+            <div class="logo">
+                  Design<span>Lab</span>  
+            </div>
+    
+            <div class="menu"> 
+                    <a href="#">Home</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Services</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Contact</a>
+            </div>
+            <div class="infos"> 
+                <a href="#">info</a>
+            </div>
+        </nav>
+
+        <section class="h-style">
+            <div class="left">
+                <p>I am a</p>
+                <h1>Front End Deve<span style="color:skyblue;">loper</span></h1>
+                <p>Youtuber and Blogger</p>
+                <br>                          <br>
+                <a href="#">Download cv</a>
+            </div>
+            <div class="right">
+                <img src="https://www.pngitem.com/pimgs/m/526-5263462_professional-woman-hd-png-download.png" alt="" width="500px">
+            </div>
+        </section>
+
+        
+        <div class="img">
+            <img src="https://www.multidots.com/wp-content/uploads/2018/01/Full_stack_developer-1-1.jpg?quality=90" alt="file not found" height="240" width="400">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ljpDq2HrKCNY6CP_AyevK6szVAt8u29vKQ&usqp=CAU" alt="file not found" height="240" width="400">
+        <img src="https://www.springboard.com/blog/wp-content/uploads/2021/10/shutterstock_1856848534.jpg" alt="file not found" height="240" width="400">
+        </div>
+        <!-- <div class="center-img">
+           
+        </div>
+        <div class="left-img">
+    
+        </div> -->
+
+        <div class="container-fluid bg-dark pt-5">
+            <div class="row ">
+                <div class="col-sm-12">
+                    <p class="text-white pl-5 pb-5"style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande'; ">Looking at the present scenario of the virtual world, there has been a growing demand for full-stack developers. You might be wondering why a company or organization would require a full stack developer. Well, with transient technology and ever-growing hunger for new and better things, organizations like to hire full-stack development professionals.</p>
+                </div>
+            </div>
+            <h1 class="text-info pl-5" >Services</h1>
+            <p class="text-white pl-5 pt-3">these are just some of the service i provide</p>
+        <div class="row pl-5 pt-4">
+            <div class="col-4 ">
+                    <img src="https://img.freepik.com/free-vector/creative-gradient-code-logo_23-2148820572.jpg?w=2000" alt="" width="50%" height="70%">
+                    <h2 class="text-white pl-4 pt-3">Web Design</h2>
+            </div>
+            <div class="col-4">
+                <img src="https://img.freepik.com/free-vector/gradient-code-logo-web-developers_23-2148830996.jpg?w=2000" alt="" width="50%" height="70%">
+           <h2 class="text-white pl-4 pt-3">Web development </h2>
+            </div>
+            <div class="col-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAWIZZPXjZEsBc4G2hubShGaPNGXyWzbinlISN904oj1xBQeBNPEWBu0oPf8FYZyqSMHc&usqp=CAU" alt=""  width="50%" height="70%">
+            <h2 class="text-white pl-4 pt-3">Social Media</h2>
+            </div>
+        </div>
+        </div>
+
+    </header>
+    
+    
+
+</html>
